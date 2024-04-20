@@ -1,0 +1,105 @@
+header{
+  background-color: #271c1c;
+}
+nav{
+  display: flex;
+  align-items: center;
+}
+.logo{
+  width: 100px;
+  margin-left: 30px;
+}
+.log{
+  font-family: Teko;
+  color: #c5aa31;
+  font-size: 50px;
+  width: 200px;
+  margin-left: 20px;
+}
+.menu{
+  display: flex;
+  margin: auto;
+  margin-right: 40px;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  gap: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.menu > li{
+  text-decoration: none;
+}
+main{
+  display: flex;
+  flex-direction: column;
+}
+.principal{
+  background-color: #332424;
+}
+.apresentacao{
+  max-width: 1120px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6rem;
+  padding: 0rem 2rem;
+  margin: auto;
+  overflow: clip;
+}
+.conteudo{
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+h1{
+  font-family: Epilogue;
+  font-size: 50px;
+}
+h3{
+  font-size: 15px;
+  font-family: Epilogue;
+  max-width: 300px;
+}
+.container-imagens{
+  max-width: 45%;
+  column-count: 4;
+  column-gap: 1rem;
+  margin: -1rem;
+}
+.container-imagens > figure >  img{
+  width: 100%;
+}
+.informacoes{
+  background-color: #271c1c;
+}
+.sobre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  background-color: #332424;
+  margin: 20px 391px;
+  padding: 20px;
+  line-height: 30px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px black;
+}
+p{
+  text-align: center;
+}
+.redes-sociais{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #beb2b2;
+}
+.redes-sociais > a > img{
+  width: 80px;
+  padding: 20px;
+}
