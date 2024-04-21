@@ -40,7 +40,7 @@ main{
 }
 .apresentacao{
   max-width: 1120px;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -103,3 +103,69 @@ p{
   width: 80px;
   padding: 20px;
 }
+@media screen and (max-width: 529px){
+
+  .log{
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  .logo{
+    width: 40px;
+    margin-left: 10px;
+  }
+  .menu{
+    font-size: 15px;
+    gap: 22px;
+    margin-right: auto;    
+  }
+  .apresentacao{
+    flex-direction: column;
+    justify-content: center;
+    gap: 150px;
+  }
+  .conteudo{
+    margin-top: 60px;
+    text-align: center;
+  }
+  .container-imagens{
+    max-width: none;
+    column-gap: 5px;
+    height: 270px;
+    margin-bottom: 25px;
+  }
+  .container-imagens > figure > img{
+    width: 50px;
+    gap: 15px;
+    margin: 0 2px;
+    padding: 3px 0;
+  }
+  .informacoes{
+    padding: 20px;
+  }
+  .sobre{
+    margin: 0;
+    flex-direction: column;
+  }
+  .sobre > span{
+    text-decoration: underline;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 5px 0 20px 0;
+    color: #c5aa31;
+  }
+  .sobre > p{
+    padding: 10px;
+    text-align: start;
+  }
+  #img{
+  padding-left: 30px;
+  padding-right: 5px;
+  }
+  #img2{
+    padding-left: 5px;
+    padding-right: 30px;
+  }
+  .redes-sociais > a > img{
+    width: 78px;
+  }
+};
